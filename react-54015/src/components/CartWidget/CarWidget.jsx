@@ -5,7 +5,7 @@ const CarWidget = () => {
   return (
     <div className='container'>
         <button>
-            <BsCart4 />
+            <BsCart4 /> 0
         </button>
     </div>
   )

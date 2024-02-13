@@ -3,21 +3,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CarWidget from '../CartWidget/CarWidget';
 import './NavBar.css'
+import {Link, NavLink} from "react-router-dom";
 
 function NavBar() {
   return (
     <>
-    <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <Nav.Link href="#cartwidget"><CarWidget /></Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+    <header>
+    <nav >
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/categoria/Frutos_secos">Frutos Secos</NavLink>
+    <NavLink to="/categoria/Legumbres">Legumbres</NavLink>
+    <NavLink to="/categoria/Endulzantes">Endulzantes</NavLink>
+    <NavLink to="#cartwidget"><CarWidget /></NavLink>
+    </nav>
+    </header>
     </>
   );
 }

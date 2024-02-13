@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    height: 5rem;
+}
+nav a{
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+a.active{
+    color: blueviolet;
+
+}
