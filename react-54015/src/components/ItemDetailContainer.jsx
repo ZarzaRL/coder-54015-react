@@ -10,24 +10,24 @@ import './ItemListContainer/ItemListContainer.css'
 const ItemDetailContainer = () => {
     const { objetoId } = useParams ()
 
-    const [products, setProducts] = useState([])
+    const [product, setProduct] = useState()
     
     useEffect(() => {
       pedirDetalles(objetoId)
       .then((res) => {
-          setProducts(res)
+          setProduct(res)
         })
         .catch((err) => console.log(err))
         .finally(() => console.log('done'));
     }, [objetoId])
     
     
-    
     return(
       <>
+
       <main>
         <h1>test</h1>
-        <ItemDetail products={products} />
+        <ItemDetail product={product} />
       </main>
         
       </>

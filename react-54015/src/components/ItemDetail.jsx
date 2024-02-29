@@ -1,16 +1,16 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import ItemD from './ItemD'
 
 
-export default function ItemDetail ({products})  {
+export default function ItemDetail ({product})  {
   return (
     <div>
         <h1>test2
             
         </h1>
       {
-        products.map((product) =>
-        <ItemD key={product.id} product={product}/>)
+        <ItemD key={product.id} details={product}/>
       }
     </div>
   )

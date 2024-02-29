@@ -1,8 +1,8 @@
-# React + Vite
+# E-commerce - mayorista de productos dieteticos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto se basa en una tienda online, para un mayorista de productos dieteticos (Frutos secos, legumbres, etc...), Dando la posibilidad de la venta por kilo.
 
-Currently, two official plugins are available:
+### Instrucciones:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clonar el repositorio
+2. Instertar "npm run dev" en la consola para ejecutar
