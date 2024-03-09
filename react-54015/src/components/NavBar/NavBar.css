@@ -19,3 +19,6 @@ a.active{
     color: blueviolet;
 
 }
+img{
+    max-width: 100px;
+}

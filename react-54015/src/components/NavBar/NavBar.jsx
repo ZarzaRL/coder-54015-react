@@ -9,7 +9,8 @@ function NavBar() {
   return (
     <>
     <header>
-    <nav >
+    <nav>
+      <img src="https://drive.google.com/file/d/1mNJjHJenpJH5DMUY0BempDiz7MGUa3vC/view" alt="" />
     <NavLink to="/">Home</NavLink>
     <NavLink to="/categoria/Frutos_secos">Frutos Secos</NavLink>
     <NavLink to="/categoria/Legumbres">Legumbres</NavLink>
